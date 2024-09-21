@@ -1,0 +1,80 @@
+/* components/Header.module.css */
+.header {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logoImage {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    margin-right: 10px;
+  }
+  
+  .brandName {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f5564e; /* Use the desired color */
+  }
+  
+  .nav {
+    flex-grow: 1;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Adjust space between links */
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Center navigation links */
+  }
+  
+  .navItem {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .navItem a {
+    text-decoration: none;
+    color: #333; /* Default text color */
+    transition: color 0.3s ease;
+  }
+  
+  .navItem a:hover {
+    color: #f5564e; /* Change to the desired hover color */
+  }
+  
+  .downloadButtonContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .downloadButton {
+    background-color: #000; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .downloadButton:hover {
+    background-color: #333; /* Darker shade on hover */
+  }
+  
