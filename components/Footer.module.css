@@ -1,0 +1,95 @@
+
+.footer {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    border-top: 1px solid #e5e5e5;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .companyInfo {
+    flex: 1;
+    margin-bottom: 20px;
+  }
+  
+  .companyInfo .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .links, .legal, .product, .newsletter {
+    flex: 1;
+    margin-bottom: 20px;
+  }
+  
+  .h2tag{
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+ .ultag {
+    list-style-type: none;
+    padding: 0;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .litag {
+    margin-bottom: 10px;
+  }
+  
+  .newsletter p {
+    margin-bottom: 10px;
+  }
+  
+  .form {
+    display: flex;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+  }
+  
+  .button {
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #e5e5e5;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .companyInfo, .links, .legal, .product, .newsletter {
+      flex: none;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+  

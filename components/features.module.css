@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 100vh;
+    background: #f7f7f7;
+  }
+  
+  .leftSection {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .phoneWrapper {
+    position: relative;
+    width: 300px;
+    transform: rotate(13deg); 
+    z-index: 2;
+  }
+  
+  .phoneImage {
+    width: 100%;
+    height: auto;
+   
+  }
+  
+  .rightSection {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 30px;
+  }
+  .customizetitle {
+    font-size: 33px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 30px;
+  }
+  
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .featureItem {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .circle {
+    width: 70px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FF5555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .featureItem h2 {
+    font-size: 20px;
+    margin: 0;
+    color: #000;
+  }
+  
+  .featureItem p {
+    font-size: 14px;
+    color: #555;
+  }
+  .backgroundCircle {
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    z-index: 1; /* Circle behind the phones */
+  }  
+  .feature{
+    color: #FF5555;
+  }

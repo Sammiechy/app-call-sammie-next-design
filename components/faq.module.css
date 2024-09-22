@@ -1,0 +1,53 @@
+.faqContainer {
+
+    padding: 40px;
+    background-color: #f8f8f8;
+  }
+  .ImageContainer{
+   
+    padding: 40px;
+    background-color: #f8f8f8;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  .faqGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .faqCard, .faqCardRed {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faqCardRed {
+    background-color: #ff585d; 
+    color: white;
+  }
+  
+  .faqCard h2, .faqCardRed h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .faqCard p, .faqCardRed p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+  }
+  
+  .faqCardRed p {
+    color: white; 
+  }
+  
