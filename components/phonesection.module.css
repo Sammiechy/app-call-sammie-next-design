@@ -1,0 +1,55 @@
+/* PhonesDisplay.module.css */
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .backgroundCircle {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    z-index: 1; /* Circle behind the phones */
+  }
+  
+  .phones {
+    position: relative;
+    width: 800px; /* Limit the width of the phones container */
+    height: 500px;
+    z-index: 2; /* Phones on top of the background */
+  }
+  
+  .phone1, .phone2, .phone3 {
+    position: absolute; /* Make phones absolute for overlap */
+    transition: transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .phone1 {
+    left: 0; /* Adjust the position to the left */
+    top: 50px; /* Vertical positioning */
+    transform: rotate(5deg); /* Slight rotation */
+    z-index: 5;
+  }
+  
+  .phone2 {
+    left: 150px; /* Slight overlap on the second phone */
+    top: 0; /* Centered vertically */
+    transform: rotate(0deg); 
+    z-index: 4;
+  }
+  
+  .phone3 {
+    left: 300px; 
+    top: 50px; 
+    transform: rotate(-5deg); 
+    z-index: 3;
+  }
+  
+  .phone1:hover, .phone2:hover, .phone3:hover {
+    transform: scale(1.05); 
+  }
+  

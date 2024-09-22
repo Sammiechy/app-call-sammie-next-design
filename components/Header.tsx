@@ -12,7 +12,7 @@ const Header = () => {
         {/* Logo Section */}
         <div className={styles.logo}>
         <Image
-  src="/assets/Vector.png" 
+  src="/assets/vector.png" 
   alt="Logo" 
   width={40} 
   height={40} 
