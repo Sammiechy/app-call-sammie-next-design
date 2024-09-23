@@ -11,7 +11,7 @@ const Advantage = () => {
       <div className={styles.features}>
         <div className={styles.featureItem}>
             <div className={styles.circle}>
-          <img src="/assets/bellIcon.png" alt="Feature Icon" className={styles.icon} />
+          <Image src="/assets/bellIcon.png" alt="Feature Icon" width={10} height={10} className={styles.icon} />
           </div>
           <div>
             <h2>Clever Notifications</h2>
@@ -33,7 +33,7 @@ const Advantage = () => {
     />
   </div>
       <div className={styles.phoneWrapper}>
-        <img src="/assets/phone2.png" alt="Phone" className={styles.phoneImage} />
+        <Image src="/assets/phone2.png" alt="Phone" width={800} height={800} className={styles.phoneImage} />
       </div>
     </div>
    
@@ -49,14 +49,14 @@ const Advantage = () => {
     />
   </div>
       <div className={styles.phoneWrapper}>
-        <img src="/assets/phone2.png" alt="Phone" className={styles.phoneImage} />
+        <Image src="/assets/phone2.png" alt="Phone" width={800} height={800} className={styles.phoneImage} />
       </div>
     </div>
     <div className={styles.rightSection}>
       <div className={styles.features}>
         <div className={styles.featureItem}>
             <div className={styles.circle}>
-          <img src="/assets/whitestar.png" alt="Feature Icon" className={styles.icon} />
+          <Image src="/assets/whitestar.png" alt="Feature Icon" width={10} height={10} className={styles.icon} />
           </div>
           <div>
           <h3 className={styles.customizetitle} >Fully Customizable</h3>

@@ -15,7 +15,7 @@ const Features = () => {
       />
     </div>
         <div className={styles.phoneWrapper}>
-          <img src="/assets/phone2.png" alt="Phone" className={styles.phoneImage} />
+          <Image src="/assets/phone2.png" alt="Phone" width={800} height={800} className={styles.phoneImage} />
         </div>
       </div>
       <div className={styles.rightSection}>
@@ -23,21 +23,21 @@ const Features = () => {
         <h1 className={styles.title}>Uifry Premium</h1>
         <div className={styles.features}>
           <div className={styles.featureItem}>
-            <img src="/assets/staricon.png" alt="Feature Icon" className={styles.icon} />
+            <Image src="/assets/staricon.png" alt="Feature Icon" width={10} height={10} className={styles.icon} />
             <div>
               <h2>Budgeting Intervals</h2>
               <p>Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus Tincidunt...</p>
             </div>
           </div>
           <div className={styles.featureItem}>
-            <img src="/assets/rectangle.png" alt="Feature Icon" className={styles.icon} />
+            <Image src="/assets/rectangle.png" alt="Feature Icon" width={10} height={10} className={styles.icon} />
             <div>
               <h2>Budgeting Intervals</h2>
               <p>Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus Tincidunt...</p>
             </div>
           </div>
           <div className={styles.featureItem}>
-            <img src="/assets/Icon.png" alt="Feature Icon" className={styles.icon} />
+            <Image src="/assets/Icon.png" alt="Feature Icon" width={10} height={10} className={styles.icon} />
             <div>
               <h2>Budgeting Intervals</h2>
               <p>Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus Tincidunt...</p>

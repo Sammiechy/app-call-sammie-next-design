@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css'; 
-
+import Image from "next/image";
 const Footer = () => {
   return (
     <footer className={styles.footer}>
@@ -8,9 +8,9 @@ const Footer = () => {
        
         <div className={styles.companyInfo}>
         
-          <h1 className={styles.logo}> <img src="/assets/vector.png" alt="Feature Icon" className={styles.icon} />uifry</h1>
-          <div style={{display:"flex" ,padding:"10px"}} > <img src="/assets/messageIcon.png" alt="Feature Icon" style={{paddingRight:"10px" }} /> <p style={{flex:1}}>Help@Frybix.Com</p></div>
-          <div style={{display:"flex",padding:"10px"}}><img src="/assets/phoneIcon.png" alt="Feature Icon" style={{paddingRight:"10px"}} /> <p>+1234 456 678 89</p></div>
+          <h1 className={styles.logo}> <Image src="/assets/vector.png" width={10} height={10} alt="Feature Icon" className={styles.icon} />uifry</h1>
+          <div style={{display:"flex" ,padding:"10px"}} > <Image src="/assets/messageIcon.png" width={10} height={10} alt="Feature Icon" style={{paddingRight:"10px" }} /> <p style={{flex:1}}>Help@Frybix.Com</p></div>
+          <div style={{display:"flex",padding:"10px"}}><Image src="/assets/phoneIcon.png" width={10} height={10} alt="Feature Icon" style={{paddingRight:"10px"}} /> <p>+1234 456 678 89</p></div>
         </div>
 
        
